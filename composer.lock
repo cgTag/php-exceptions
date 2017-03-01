@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "23104a21591f283852cfd80a5cce4c90",
-    "packages": [],
+    "content-hash": "c7fef4cddd07fd798bdbaff7bcbcb89e",
+    "packages": [
+        {
+            "name": "cgtag/php-strings",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cgTag/php-strings.git",
+                "reference": "6e079e1f5f2fe9ff84e6fa36a4c8a88dea769c8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cgTag/php-strings/zipball/6e079e1f5f2fe9ff84e6fa36a4c8a88dea769c8f",
+                "reference": "6e079e1f5f2fe9ff84e6fa36a4c8a88dea769c8f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.7,<6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "cgTag\\Strings\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "cgTag",
+                    "homepage": "https://cgTag.com/"
+                }
+            ],
+            "description": "A tiny library that adds string functions",
+            "keywords": [
+                "library",
+                "php",
+                "strings"
+            ],
+            "time": "2017-02-27T02:17:26+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
